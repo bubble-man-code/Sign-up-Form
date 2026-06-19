@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  --main: white;
+  --background: #00000065;
+}
+@font-face {
+  font-family: "technoid";
+  src: url("fonts/technoid-webfont.woff2") format("woff2"),
+       url("fonts/technoid-webfont.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+body{
+    display: flex;
+    flex-direction: row;
+}
+aside{
+     background-image:url("pictures/conny-schneider-xuTJZ7uD7PI-unsplash.jpg") ;
+     width: 850px;
+     height: 100vw;
+     position: relative ;
+     justify-content: center;
+     display: flex;
+     
+}
+.logo_background{
+    background-color: var(--background) ;
+    width:100% ;
+    height:150px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-top: 250px;
+}
+img{
+    width:100px;
+    height:120px;
+    margin-left: 80px;
+}
+.logo_hero{
+font-family: technoid ;
+color: var(--main);
+font-size: 3rem;
+}
+
+.credit_para{
+    position: absolute ;
+    bottom: 0;
+    color:var(--main);
+    background-color: var(--background);
+    padding: 2px 4px ;
+    border-radius: 2px;
+}
+.credit_link {
+  color: var(--main);
+  text-decoration: none;
+}
+
+a:hover, a:focus {
+  text-decoration: underline;
+  color: #0056b3;
+}
+
+a:active {
+  color: #0056b3;
+}   
