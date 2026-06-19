@@ -3,6 +3,7 @@
   padding: 0;
   --main: white;
   --background: #00000065;
+  font-family: 'Courier New', Courier, monospace ;
 }
 @font-face {
   font-family: "technoid";
@@ -64,4 +65,25 @@ a:hover, a:focus {
 
 a:active {
   color: #0056b3;
-}   
+}  
+
+continer{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.hero{
+    width: 60vw;
+    margin-top: 150px;
+    margin-left: -50px;
+}
+.after_hero{
+    width: 60vw;
+    margin-top: 16px;
+    margin-left: -50px;
+    margin-bottom: 80px;
+}
+.input_field{
+    
+}
