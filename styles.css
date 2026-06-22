@@ -15,6 +15,7 @@
 body{
     display: flex;
     flex-direction: row;
+    background-color: ghostwhite;
 }
 aside{
      background-image:url("pictures/conny-schneider-xuTJZ7uD7PI-unsplash.jpg") ;
@@ -84,6 +85,18 @@ align-items: center;
     margin-left: -50px;
     margin-bottom: 80px;
 }
+.form_field{
+  background-color: white;
+  padding: 20px 30px;
+}
+form{
+display: grid;
+gap: 1rem;
+grid-template-columns: 1fr 1fr;
+}
+legend{
+    font-size: 1rem;
+}
 .input_field{
-    
+
 }
